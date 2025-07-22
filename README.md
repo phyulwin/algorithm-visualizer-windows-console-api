@@ -1,7 +1,4 @@
-# algorithm-visualizer-windows-console-api
-Algorithm Visualizer in C++ using Windows Console API
-
-Absolutely. Here's a clear summary:
+# Algorithm Visualizer in C++ using Windows Console API
 
 ---
 

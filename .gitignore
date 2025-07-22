@@ -1,0 +1,44 @@
+# Visual Studio
+.vs/
+*.vcxproj.user
+*.VC.db
+*.suo
+*.sdf
+*.opensdf
+
+# Build results
+x64/
+Debug/
+Release/
+*.obj
+*.log
+*.pch
+*.exe
+*.dll
+*.pdb
+*.ipch
+*.ilk
+
+# CMake (if used later)
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Other
+*.cache
+*.tlog
+*.user
+*.aps
+*.ncb
+*.idb
+*.class
+*.psess
+*.vsp
+*.vspscc
+*.vssscc
+*.orig
+
+AlgorithmVisualizer/.vs/
+AlgorithmVisualizer/x64/
+AlgorithmVisualizer/Debug/

@@ -4,7 +4,10 @@
 
 An interactive command-line tool to visualize step-by-step execution of classic sorting algorithms, dynamic programming, and graph traversal with Default ISO C++14 Standard. 
 
-![](ProjectScreenshots/project-ss.png)
+## Demo Video
+
+[![Watch the demo](https://img.youtube.com/vi/KAlhtnDo2dU/0.jpg)](https://youtu.be/KAlhtnDo2dU)
+
 
 ## Features:
 

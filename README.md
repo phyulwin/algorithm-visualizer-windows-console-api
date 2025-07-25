@@ -4,6 +4,7 @@
 
 An interactive command-line tool to visualize step-by-step execution of classic sorting algorithms, dynamic programming, and graph traversal with Default ISO C++14 Standard. 
 
+![](ProjectScreenshots/project-ss.png)
 
 ## Features:
 
@@ -17,33 +18,51 @@ An interactive command-line tool to visualize step-by-step execution of classic 
 
 ### **Sorting Algorithms**
 
-1. **Bubble Sort**
-   Time Complexity: O(n²)
+1. **Bubble Sort**  
+   Time Complexity: O(n²)  
 
-2. **Selection Sort**
-   Time Complexity: O(n²)
+   ![Bubble Sort Visualization](ProjectScreenshots/bs.png)
 
-3. **Insertion Sort**
-   Time Complexity: O(n²)
+2. **Selection Sort**  
+   Time Complexity: O(n²)  
 
-4. **Merge Sort**
-   Time Complexity: O(n log n)
+   ![Selection Sort Visualization](ProjectScreenshots/ss.png)
 
-5. **Quick Sort**
-   Time Complexity: O(n log n)
+3. **Insertion Sort**  
+   Time Complexity: O(n²)  
+
+   ![Insertion Sort Visualization](ProjectScreenshots/is.png)
+
+4. **Merge Sort**  
+   Time Complexity: O(n log n)  
+
+   ![Merge Sort Visualization](ProjectScreenshots/ms.png)
+
+5. **Quick Sort**  
+   Time Complexity: O(n log n)  
+
+   ![Quick Sort Visualization](ProjectScreenshots/qs.png)
 
 ### **Dynamic Programming**
 
-6. **Fibonacci (using DP)**
-   Time Complexity: O(n)
+6. **Fibonacci (using DP)**  
+   Time Complexity: O(n)  
 
-7. **0/1 Knapsack Problem**
-   Time Complexity: O(n × W), where `n` is number of items, `W` is capacity
+   ![Fibonacci DP Visualization](ProjectScreenshots/fib.png)
+
+7. **0/1 Knapsack Problem**  
+   Time Complexity: O(n × W), where `n` is number of items, `W` is capacity  
+
+   ![Knapsack Visualization](ProjectScreenshots/ks.png)
 
 ### **Graph Traversal**
 
-8. **Depth-First Search (DFS)**
-   Time Complexity: O(V + E)
+8. **Depth-First Search (DFS)**  
+   Time Complexity: O(V + E)  
 
-9. **Breadth-First Search (BFS)**
-   Time Complexity: O(V + E)
+   ![DFS Visualization](ProjectScreenshots/dfs.png)
+
+9. **Breadth-First Search (BFS)**  
+   Time Complexity: O(V + E)  
+
+   ![BFS Visualization](ProjectScreenshots/bfs.png)

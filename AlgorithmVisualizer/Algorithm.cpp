@@ -7,6 +7,7 @@ void Algorithm::visualizeBubbleSort(vector<int>& arr) {
     for (int i = 0; i < arr.size(); ++i) {
         for (int j = 0; j < arr.size() - i - 1; ++j) {
             ++steps;
+            system("cls"); // Clear console
             Helper::printArray(arr, j);
             cout << "Steps: " << steps << endl;
             this_thread::sleep_for(chrono::milliseconds(500));
@@ -26,7 +27,8 @@ void Algorithm::visualizeSelectionSort(vector<int>& arr) {
     for (int i = 0; i < arr.size(); ++i) {
         int minIndex = i;
         for (int j = i + 1; j < arr.size(); ++j) {
-            ++steps;
+            ++steps; 
+            system("cls"); // Clear console
             Helper::printArray(arr, j);
             cout << "Steps: " << steps << endl;
             this_thread::sleep_for(chrono::milliseconds(500));
@@ -48,6 +50,7 @@ void Algorithm::visualizeInsertionSort(vector<int>& arr) {
         while (j >= 0 && arr[j] > key) {
             ++steps;
             arr[j + 1] = arr[j];
+            system("cls"); // Clear console
             Helper::printArray(arr, j);
             cout << "Steps: " << steps << endl;
             this_thread::sleep_for(chrono::milliseconds(500));
@@ -74,6 +77,7 @@ void merge(vector<int>& arr, int l, int m, int r, int& steps) {
         ++steps;
         if (L[i] <= R[j]) arr[k++] = L[i++];
         else arr[k++] = R[j++];
+        system("cls"); // Clear console
         Helper::printArray(arr, k - 1);
         cout << "Steps: " << steps << endl;
         this_thread::sleep_for(chrono::milliseconds(500));
@@ -110,6 +114,7 @@ int partition(vector<int>& arr, int low, int high, int& steps) {
             ++i;
             swap(arr[i], arr[j]);
         }
+        system("cls"); // Clear console
         Helper::printArray(arr, j);
         cout << "Steps: " << steps << endl;
         this_thread::sleep_for(chrono::milliseconds(500));
@@ -146,6 +151,7 @@ void Algorithm::visualizeFibonacciDP(int n) {
     for (int i = 2; i <= n; ++i) {
         ++steps;
         dp[i] = dp[i - 1] + dp[i - 2];
+        system("cls"); // Clear console
         Helper::printArray(dp, i);
         cout << "Steps: " << steps << "  -> Fib(" << i << ") = " << dp[i] << endl;
         this_thread::sleep_for(chrono::milliseconds(500));
@@ -171,7 +177,7 @@ void Algorithm::visualizeKnapsackDP(const vector<int>& weights, const vector<int
             else {
                 dp[i][w] = dp[i - 1][w];
             }
-
+            system("cls"); // Clear console
             cout << "Step: " << steps << " | dp[" << i << "][" << w << "] = " << dp[i][w] << endl;
             this_thread::sleep_for(chrono::milliseconds(300));
         }
@@ -187,6 +193,7 @@ void Algorithm::visualizeKnapsackDP(const vector<int>& weights, const vector<int
 void dfsUtil(int node, const vector<vector<int>>& adj, vector<bool>& visited, int& steps) {
     visited[node] = true;
     ++steps;
+    system("cls"); // Clear console
     cout << "Visited: " << node << " | Step: " << steps << endl;
     Helper::setColor(10);
     this_thread::sleep_for(chrono::milliseconds(500));
@@ -221,6 +228,7 @@ void Algorithm::visualizeBFS(int start, const vector<vector<int>>& adj) {
     while (!q.empty()) {
         int node = q.front(); q.pop();
         ++steps;
+        system("cls"); // Clear console
         cout << "Visited: " << node << " | Step: " << steps << endl;
         Helper::setColor(11);
         this_thread::sleep_for(chrono::milliseconds(500));

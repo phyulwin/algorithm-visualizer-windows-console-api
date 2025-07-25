@@ -1,29 +1,49 @@
-# Algorithm Visualizer in C++ using Windows Console API
+# **Algorithm Visualizer C++14**
+
+## Project Overview:
+
+An interactive command-line tool to visualize step-by-step execution of classic sorting algorithms, dynamic programming, and graph traversal with Default ISO C++14 Standard. 
+
+
+## Features:
+
+* Visualize 9 algorithms
+* Display time complexity
+* Simulate steps with delays
 
 ---
 
-## **Goal of the Project**
+## List of Algorithms in the Visualizer:
 
-To **visualize the step-by-step execution** of fundamental algorithms (like sorting, graph traversal, and dynamic programming) **in the console**, making abstract concepts **visible and understandable**.
+### **Sorting Algorithms**
 
----
+1. **Bubble Sort**
+   Time Complexity: O(n²)
 
-## **What It Does**
+2. **Selection Sort**
+   Time Complexity: O(n²)
 
-* Shows how algorithms work **internally**
-* Lets the user **see changes in data** (like array swaps or visited nodes)
-* Displays **time complexity concepts** in real-time (step count, delays)
+3. **Insertion Sort**
+   Time Complexity: O(n²)
 
----
+4. **Merge Sort**
+   Time Complexity: O(n log n)
 
-## Example Use Case
+5. **Quick Sort**
+   Time Complexity: O(n log n)
 
-You're teaching someone how Bubble Sort works. Instead of drawing diagrams or explaining in words, you run your program:
+### **Dynamic Programming**
 
-* The console shows each step
-* Highlights the two elements being compared
-* Shows the array gradually getting sorted
+6. **Fibonacci (using DP)**
+   Time Complexity: O(n)
 
-They **see the logic come alive**.
+7. **0/1 Knapsack Problem**
+   Time Complexity: O(n × W), where `n` is number of items, `W` is capacity
 
----
+### **Graph Traversal**
+
+8. **Depth-First Search (DFS)**
+   Time Complexity: O(V + E)
+
+9. **Breadth-First Search (BFS)**
+   Time Complexity: O(V + E)
